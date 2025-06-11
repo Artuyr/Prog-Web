@@ -8,6 +8,44 @@ html, body {
   padding: 0;
 }
 
+h2 {
+    padding-top: 160px;
+    text-align: center;
+    font-family:'Merriweather';
+    font-size:70px;
+    color:#131324;
+}
+
+p {
+    text-align:justify;
+    font-family:'Merriweather';
+    font-size:30px;
+    color: #0c0c13;
+    margin:0;
+    padding-bottom:30px
+}
+
+hr {
+    height: 1.5px;
+    width:100%;
+    background-color:#0c0c13;
+    margin-bottom:30px
+}
+
+table{
+    border-spacing: 270px 3px;
+    color:#d3d3d3;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    font-size:11Spx
+}
+
+td{
+    text-align: center;
+    font-size: 10px;
+}
+
 .banner {
     position:absolute;
     top: 0;
@@ -26,41 +64,16 @@ html, body {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    /*text-shadow:  
-    -0.3px -0.3px 0 #EAEAEA,
-    0.3px -0.3px 0 #EAEAEA,
-   -0.3px  0.3px 0 #EAEAEA,
-    0.3px  0.3px 0 #EAEAEA;*/
+    text-shadow:  
+    -1px -1px 0 #EAEAEA,
+    1px -1px 0 #EAEAEA,
+   -1px  1px 0 #EAEAEA,
+    1px  1px 0 #EAEAEA;
     font-family: "COD";
     font-size:130px;
     color:#0c0c0c;
     opacity:100%;
 }
-
-h2 {
-    padding-top: 160px;
-    text-align: center;
-    font-family:'Merriweather';
-    font-size:70px;
-    color:#1c1c35;
-}
-
-p {
-    text-align:justify;
-    font-family:'Merriweather';
-    font-size:30px;
-    color:#1c1c35;
-    margin:0;
-    padding-bottom:30px
-}
-
-hr {
-    height: 1.5px;
-    width:100%;
-    background-color:#1c1c35;
-    margin-bottom:30px
-}
-
 .imgr {
     float:right;
     height:288px;
@@ -91,9 +104,18 @@ hr {
     box-sizing: border-box;
 }
 
+.bc3{
+    background-color: rgb(44, 44, 44);
+    padding-top:10px;
+    padding-bottom:20px;
+    padding-left:100px;
+    padding-right:100px;
+    border-top :solid 1px rgb(2, 2, 2);
+}
+
 .flex {
     display:flex;
-    justify-content: center;
+    justify-content: center;    
     gap:100px;
     margin-bottom:50px
 }

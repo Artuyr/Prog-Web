@@ -33,12 +33,12 @@ hr {
 }
 
 table{
-    border-spacing: 270px 3px;
+    border-spacing: 200px 3px;
     color:#d3d3d3;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 th{
-    font-size:11Spx
+    font-size:12px
 }
 
 td{
@@ -107,9 +107,9 @@ td{
 .bc3{
     background-color: rgb(44, 44, 44);
     padding-top:10px;
-    padding-bottom:20px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-bottom:5px;
+    padding-left:190px;
+    padding: right 160px;
     border-top :solid 1px rgb(2, 2, 2);
 }
 

@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="estilo-sub.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
+        <title>Formulario de contato</title>
+        <script src="JavaS.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="topo">
+                <h3 class="COD"><a href="index.html">CALL OF DONATION</a></h3>
+                <a href="Formulario.html"><p style="padding-bottom:5px; font-size:30px;">Formulario de contato</p></a>
+            </div>
+        </header>
+        <div class="bc1">
+            <h2 style="padding-bottom:50px">Formulario de contato:</h2>
+            <center>
+                <label>Nome:</label><br /><br />
+		        <input id="input_text" type="text" /><br /><br />	
+                <label>E-mail:</label><br /><br />
+		        <input id="input_text" type="text" /><br /><br />
+
+                <label>Motivo:</label><br />
+	        	<input type="radio" name="sexo"/>Relatar erro<br />
+	        	<input type="radio" name="sexo"/>Fazer sugestão<br />
+                <input type="radio" name="sexo"/>Outro<br /><br />
+
+	        	<label>Mensagem:</label><br /><br />
+	        	<textarea cols="50" rows="3" wrap="soft">
+	        	</textarea><br /><br />
+	        	<button class="butão" style="margin-bottom:100px" onclick="Enviar()">Enviar</button>
+	        </center>
+        </div>
+    </body>
+</html>

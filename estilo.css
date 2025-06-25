@@ -19,7 +19,7 @@ h2 {
 p {
     text-align:justify;
     font-family:'Merriweather';
-    font-size:30px;
+    font-size:25px;
     color: #0c0c13;
     margin:0;
     padding-bottom:30px
@@ -33,12 +33,12 @@ hr {
 }
 
 table{
-    border-spacing: 270px 3px;
+    border-spacing: 220px 2px;
     color:#d3d3d3;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif
 }
 th{
-    font-size:11Spx
+    font-size:12px
 }
 
 td{
@@ -107,9 +107,9 @@ td{
 .bc3{
     background-color: rgb(44, 44, 44);
     padding-top:10px;
-    padding-bottom:20px;
-    padding-left:100px;
-    padding-right:100px;
+    padding-bottom:5px;
+    padding-left:190px;
+    padding-right: 200px;
     border-top :solid 1px rgb(2, 2, 2);
 }
 

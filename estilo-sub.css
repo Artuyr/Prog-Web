@@ -91,6 +91,8 @@ a{
     text-decoration: none;
 }
 .COD{
+    float: left;
+    padding-right: 70px;
     text-align: left;
     font-family: "COD";
     font-size: 30px;
